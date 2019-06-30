@@ -18,3 +18,8 @@
 #6 Invariant
 """Something that is true every time we reach a certain point in the algorithm"""
 
+#7 Permutation
+"""Rearrangement of elements of ordered list into one-to-one correspondence with itself."""
+
+#8 Iteration
+"""Set of instructions/structures are repeated in a specified number of times until a condition is met.

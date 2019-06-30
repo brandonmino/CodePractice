@@ -85,7 +85,13 @@ Preorder: visit node first followed by the traversal of its children.
 Postorder: traverse all the children and then visit the node itself."""
 
 #17 Binary Search Tree
-"""
+"""Every node has at most two children
+All leaves to left are less than the root node and all leaves to the right are greater than the root node.
+Inorder: visits all the nodes in the left children prior to visiting the root and then visits all nodes in right child after visiting the root
+Balanced: height of tree is at most some constant times log n
+Tree Rotation: rotating node will move cold to opposite side and update children nodes"""
+
+# 
 
 # What DS for BFS and DFS of a graph
 """BFS: Queue
