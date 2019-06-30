@@ -38,6 +38,11 @@ Singly LL: Every node stores reference to next node in list and last node has ne
 Doubly LL: Two References associated with each node. One reference points to next node and one to previous node. NULL before and after.
 Circular LL: All nodes are connected to form circle (no NULL). Can be singly or doubly circular LL."""
 
-#8 What DS for BFS and DFS of a graph
+#8 Binary Search
+"""O(n) Has to be sorted. Divide in half, search and redivide until item is found."""
+
+#9 
+
+# What DS for BFS and DFS of a graph
 """BFS: Queue
 DFS: Stack"""
