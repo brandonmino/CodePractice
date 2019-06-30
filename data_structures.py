@@ -1,4 +1,4 @@
-###Problems and questions for data structures
+###Information and questions for data structures
 
 #1 Linear vs Non-Linear DS
 """Linear:if elements form sequence or linear list (Ex: Array, Linked List, Stack/Queue)"""
