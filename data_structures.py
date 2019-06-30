@@ -65,7 +65,27 @@ Partition puts lower elements before pivot and higher elements after pivot"""
 
 #14 MergeSort
 """O(nlogn)
-Divides array into 2 halves, calls itelsef for two halves, then merges the two sorted halves.
+Divides array into 2 halves, calls itelsef for two halves, then merges the two sorted halves."""
+
+#15 Trees
+"""-Nodes: have 0 or more children or child nodes
+-Node is called the parent of its children, each node has at most one parent.
+-Rooted trees: single special node (root node) of the tree. Root is only node that doesn't have parent
+-Leaves/Leaf Nodes: nodes that do not have any children.
+-Path: sequence of nodes which each node is a child of the previous node.
+-Length of path: Number of hops/edges which is one less that the number of nodes in the path.
+-Descendants: of node x are all those nodes y for which there is a path from x to y.
+-Ancestor: x is an ancestor of y if y is a descendant of x.
+-Depth: length of path to the node of root.
+-Height: max depth of any node in tree"""
+
+#16 Tree Traversal
+"""Process of visiting all nodes
+Preorder: visit node first followed by the traversal of its children.
+Postorder: traverse all the children and then visit the node itself."""
+
+#17 Binary Search Tree
+"""
 
 # What DS for BFS and DFS of a graph
 """BFS: Queue
