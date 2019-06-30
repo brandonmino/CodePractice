@@ -39,9 +39,33 @@ Doubly LL: Two References associated with each node. One reference points to nex
 Circular LL: All nodes are connected to form circle (no NULL). Can be singly or doubly circular LL."""
 
 #8 Binary Search
-"""O(n) Has to be sorted. Divide in half, search and redivide until item is found."""
+"""O(n) worst, O(logn) best, Has to be sorted. Divide in half, search and redivide until item is found."""
 
-#9 
+#9 BubbleSort
+"""O(n^2)
+Repeatedly swaps adjacent elements if they are in wrong order."""
+
+#10 SelectionSort
+"""O(n^2)
+Repeatedly finds min element (cosidering ascending order) from unsorted part and puts it at the beginning.
+Has 2 arrays: subarray that's already sorted, remaining subarray is picked and moved to sorted subarray."""
+
+#11 InsertionSort
+"""O(n^2)
+Repeatedly set marker for sorted section after first element until unsorted section is empty and swap elements to right to create correct position and shift the unsorted element"""
+
+#12 HeapSort
+"""O(nlogn)
+Repeatedly find max element and place at end."""
+
+#13 Quicksort
+"""Average: O(nlogn), Worst: O(n^2)
+Picks element as pivot and partitions the given array around pivot
+Partition puts lower elements before pivot and higher elements after pivot"""
+
+#14 MergeSort
+"""O(nlogn)
+Divides array into 2 halves, calls itelsef for two halves, then merges the two sorted halves.
 
 # What DS for BFS and DFS of a graph
 """BFS: Queue

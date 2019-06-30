@@ -12,7 +12,9 @@
 #4 Generators
 """Function that creates iterators that return an iterable set of items one a time in a specific way."""
 
-#3 Divide and Conquere
+#5 Divide and Conquere
 """Dividing a big problem into smaller problems to be solved"""
 
-#
+#6 Invariant
+"""Something that is true every time we reach a certain point in the algorithm"""
+
